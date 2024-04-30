@@ -1,0 +1,295 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+p {
+  font-weight: 400;
+}
+header {
+  display: flex;
+}
+.stylefirstcontainer {
+  font-size: medium;
+  color: #a6cf4e;
+  text-decoration: none;
+  margin-left: 2cm;
+  margin-right: 2cm;
+}
+#phonecolor{
+  color: white;
+}
+.nav {
+  background-color: black;
+  padding: 20px;
+  flex-grow: 1;
+}
+.nav_list {
+  padding: 0;
+  display: flex;
+}
+.nav_list a:nth-of-type(2) {
+  margin-left: auto;
+}
+h3 {
+  font-size: large;
+  color: #a6cf4e;
+  margin-top: 0;
+}
+
+.links {
+  display: inline;
+
+  margin-left: 6cm;
+}
+.image {
+  width: 100%;
+  height: auto;
+}
+
+.header {
+  color: orange;
+  font-size: 40px;
+  line-height: 1em;
+}
+.positionlayout {
+  padding: 30px;
+  font-family: arial;
+  color: black;
+  font-weight: 600;
+  text-decoration: none;
+  display: flex;
+}
+
+.na {
+  padding: 1em;
+  margin-left: 3cm;
+  display: flex;
+  padding-right: 1cm;
+  justify-content: space-between;
+}
+.na_list {
+  display: flex;
+  padding: 0;
+  gap: 1cm;
+}
+
+.columns {
+  column-count: 2;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  gap: 3em;
+  flex: 1 auto;
+  padding: 2em;
+}
+.secondcolumn {
+  column-count: 2;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  gap: 6em;
+  flex: 1 auto;
+  padding: 2em;
+  background-color: hsl(0, 0%, 83%);
+  max-height: fit-content;
+}
+
+.bodytext {
+  line-height: 2.5em;
+  margin-bottom: 5px;
+  font-size: 16px;
+  padding: 5em;
+  margin-top: 0;
+}
+.textservicios {
+  line-height: 1.5em;
+  margin-bottom: 5px;
+  font-size: 16px;
+  padding-left: 2cm;
+  padding-top: 2cm;
+  margin-top: 0;
+}
+.marginpicture {
+  margin-left: 3em;
+}
+
+.btn {
+  text-decoration: none;
+  color: rgb(37, 37, 37);
+  font-family: system-ui;
+}
+.btn:hover {
+  background-color: transparent;
+  color: #8bb539;
+  text-decoration: 2px underline;
+  text-underline-offset: 10px;
+
+  transition: all 0.15s ease-in-out 0s;
+}
+
+textarea {
+  height: 100px;
+  width: solid;
+}
+#borderbox {
+  border: 2px solid black;
+  padding: 1em;
+}
+.Map {
+  min-width: 100%;
+}
+.containercontact {
+  column-count: 3;
+  display: grid;
+  grid-template-columns: 3fr 6fr 6fr;
+  margin: 1cm;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-left: 3cm;
+}
+.containercontact div:nth-of-type(1) {
+  padding-left: 2cm;
+}
+
+.positiontextcontainer {
+  line-height: 1.5em;
+}
+#stylefirstcontainer {
+  font-size: medium;
+  color: black;
+  font-weight: 500;
+}
+#spacingeven {
+  font-size: medium;
+  color: black;
+  font-weight: 500;
+  margin-top: 2em;
+}
+
+.containermap {
+  column-count: 2;
+  grid-template-columns: 1fr 9fr;
+  gap: 0;
+  margin-top: 0;
+  padding: 3em;
+  color: white;
+  background-color: #a6cf4e;
+  padding-right: 4cm;
+}
+
+.lastcontainer {
+  background-color: black;
+  color: white;
+  column-count: 3;
+  grid-template-columns: 1fr 3fr 3fr;
+  margin-top: 5px;
+  font-size: medium;
+}
+.lastcontainer div:nth-of-type(2) {
+  margin-right: 2cm;
+}
+#cookies {
+  background-color: rgba(195, 189, 189, 0.421);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#colorlastlink {
+  color: #a6cf4e;
+}
+a {
+  color: #a6cf4e;
+}
+#marginservicios {
+  margin-top: 3cm;
+}
+#border {
+  border-top: 1px solid black;
+}
+
+.backgroundcolor {
+  background-color: grey;
+}
+
+.sizelogo {
+  width: 100%;
+}
+#avisolegal {
+  font-size: 1cm;
+  color: #a6cf4e;
+  padding-left: 2em;
+}
+.avisolegalterms {
+  margin: 4cm;
+  margin-top: 1cm;
+}
+.even {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  border-style: 1px solid;
+  border-color: black;
+}
+.col {
+  padding: 2em;
+}
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  width: fit-content;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td,
+#customers th {
+  border: 2px solid rgb(17, 16, 16);
+  padding: 8px;
+}
+
+#customers th {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+  color: black;
+}
+.columnscontact {
+  column-count: 2;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 5cm;
+  flex: 1 auto;
+  padding: 2em;
+}
+.contactform {
+  margin-top: 3cm;
+}
+
+.form {
+  border: 1px solid;
+  width: 10cm;
+  padding: 1em;
+  margin-bottom: 0.5em;
+}
+.btnform {
+  padding: 15px;
+  width: 6em;
+  background-color: #8bb539;
+  color: white;
+  font-size: medium;
+  border-radius: 5px;
+  border-color: transparent;
+}
+.underline {
+  text-decoration: none;
+  font-size: small;
+}
+ 
+ 
